@@ -19,7 +19,7 @@ public class PracticalTest02MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practical_test02_main);
-        
+/*        
         try {
     	  serverSocket = new ServerSocket(port);
     	} catch (IOException ioException) {
@@ -28,6 +28,7 @@ public class PracticalTest02MainActivity extends Activity {
     	    ioException.printStackTrace();
     	  }
     	}
+    	*/
     }
 
 
@@ -49,7 +50,7 @@ public class PracticalTest02MainActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
-    
+ /*   
     private class ConnectButtonClickListener implements Button.OnClickListener {
 	  public void onClick(View view) {
 	    String serverPort = serverPortEditText.getText().toString();
@@ -109,4 +110,5 @@ public class PracticalTest02MainActivity extends Activity {
     	  }
     	}
     	}
+    	*/
 }
